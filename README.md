@@ -8,7 +8,7 @@ Maze Solver
 **Date:** 14/12/2025 
 **Course:** CSE115
 
-## 🛠️ Project Core Concepts
+## Project Core Concepts
 
 This project successfully incorporates all the required C elements:
 
@@ -19,7 +19,7 @@ This project successfully incorporates all the required C elements:
   * **Pointers:** Used heavily in the `shuffle` function to swap array elements efficiently.
   * **File I/O:** The `saveMaze` function **writes** the unique, generated maze to `generated_maze.txt`.
 
-## 🧠 The Dual Algorithms
+## The Dual Algorithms
 
 The project is executed in two powerful stages, each using a distinct algorithm:
 
@@ -39,7 +39,7 @@ We use **Recursive Depth-First Search (DFS)** to find the path from the set Star
 2.  **Path Marking:** Valid cells on the current path are marked with a yellow asterisk (`*`).
 3.  **The Key: Backtracking:** If the search hits a dead end, the function returns `false`, and the line `maze[r][c] = ' '` **erases the path marks**. This ensures that only the final, successful route remains marked at the end.
 
-## 🚀 How to Compile and Run
+## How to Compile and Run
 
 1.  **Save:** Save the entire source code as `main.c`.
 2.  **Compile:** Use a C compiler (like GCC) in your terminal:
@@ -51,7 +51,7 @@ We use **Recursive Depth-First Search (DFS)** to find the path from the set Star
     ./maze_solver
     ```
 
-### 📂 Output Files
+### Output Files
 
 Upon execution, the program will:
 
@@ -59,9 +59,9 @@ Upon execution, the program will:
 2.  Print the final solved maze with the path marked in **yellow**.
 3.  **Create a file** named `generated_maze.txt` in the same directory, which contains a plain-text version of the unique maze the program just created.
 
-## 🎨 Visualization
+## Visualization
 
-The `printMaze` function uses **ANSI Color Codes** to color-code the output, making it easy to distinguish the components:
+The `printMaze` function uses **ANSI Color Codes** to color-code the output, making it easy to distinguish the wall and path.
 
   * **White:** Walls (`#`)
   * **Green:** Start (`S`) and End (`E`)
