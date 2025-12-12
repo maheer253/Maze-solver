@@ -4,9 +4,9 @@ Maze Solver
 
 **Project Goal:** To programmatically create a random, solvable maze and then automatically find the path from the Start point (`S`) to the End point (`E`).
 
-**Team:** [Your Name(s)]  
-**Date:** [Submission Date]  
-**Course:** [Course Name/Code]
+**Group:** 5 
+**Date:** 14/12/2025 
+**Course:** CSE115
 
 ## 🛠️ Project Core Concepts
 
