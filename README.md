@@ -4,8 +4,6 @@ Maze Solver
 
 **Project Goal:** To programmatically create a random, solvable maze and then automatically find the path from the Start point (`S`) to the End point (`E`).
 
-**Group:** 5 
-**Date:** 14/12/2025 
 **Course:** CSE115
 
 ## Project Core Concepts
@@ -23,7 +21,7 @@ This project successfully incorporates all the required C elements:
 
 The project is executed in two powerful stages, each using a distinct algorithm:
 
-### Stage 1: The Architect (Maze Generation)
+### Stage 1: Maze Generation
 
 We use the **Recursive Backtracker** algorithm to guarantee a perfectly valid maze every time.
 
@@ -31,7 +29,7 @@ We use the **Recursive Backtracker** algorithm to guarantee a perfectly valid ma
 2.  **Recursion & Backtracking:** The function `generateMaze` begins at `(1, 1)` and calls itself recursively. It randomly chooses a direction (via the `shuffle` function), moves **two steps**, and "carves" the wall in between, creating a path (`     `).
 3.  **Randomness:** Because the directions are shuffled before each move, the resulting maze is unique every time the program runs.
 
-### Stage 2: The Explorer (Maze Solver)
+### Stage 2: Maze Solver
 
 We use **Recursive Depth-First Search (DFS)** to find the path from the set Start (`S`) at $(1, 1)$ to the End (`E`) at $(ROWS-2, COLS-2)$.
 
