@@ -64,3 +64,5 @@ The `printMaze` function uses **ANSI Color Codes** to color-code the output, mak
   * **White:** Walls (`#`)
   * **Green:** Start (`S`) and End (`E`)
   * **Yellow:** The Solved Path (`*`)
+
+  Project demo: https://youtu.be/mIqGKrXD1Uk
