@@ -1,0 +1,32 @@
+PROJECT REQUIREMENTS
+
+This project is written in C and primarily uses headers from the C Standard Library. No external libraries are strictly required beyond the compiler and the standard runtime.
+
+1. Compiler
+
+- Any ANSI C-compliant compiler is suitable.
+- COMPILER = GCC (GNU Compiler Collection) or Clang
+
+2. Required Standard C Libraries (Header Files)
+
+- These files must be available in the standard compiler path.
+- They provide essential utilities for file handling, random numbers, and boolean logic.
+
+	HEADER_1 = stdio.h      | Standard Input/Output (for printf, fopen, fprintf)
+	HEADER_2 = stdlib.h     | Standard Library (for general utilities like malloc, exit, and rand)
+	HEADER_3 = time.h       | Time Utilities (for seeding the random number generator using time(0))
+	HEADER_4 = stdbool.h    | Boolean Support (for using 'bool' type, 'true', and 'false')
+
+3. Terminal/Environment Requirements (For Colors)
+
+- The 'printMaze' function uses ANSI escape codes for coloring the output. 
+- This requires a modern terminal emulator.
+
+TERMINAL_SUPPORT = ANSI Escape Codes
+Works best in Linux/macOS terminal, VS Code terminal, or Windows PowerShell. May not display colors correctly in older Windows Command Prompt (cmd.exe).
+
+4. Input/Output Files
+
+- These files are used by the program for I/O operations.
+- OUTPUT_FILE = generated_maze.txt  
+- Created by the program to save the random maze layout.
